@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin:0;
+    background-color: sienna;
+   
+}
+#header {
+    color:Yellow;
+    padding:14px;
+    background: linear-gradient(45deg,darkred,black);
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+#nav {
+    padding:15px 25px;
+    background: linear-gradient(45deg,darkred,blueviolet);
+    text-align: right;
+}
+#nav a {
+    color:white;
+    text-decoration: none;
+    font-style: italic;
+    padding:12px;
+}
+#aside {
+    width:250px;
+    background: linear-gradient(45deg,darkred,orangered);
+    text-align: center;
+    float: left;
+    height:100%;
+    position:sticky;
+    top:0px;
+    
+}
+#aside a {
+
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding:20px;
+   
+   
+}
+#aside a:hover {
+    margin:5px;
+    border:2px solid black;
+    border-radius:50px;
+    background:linear-gradient(45deg,rgb(34,98,98),rgb(34,92,13));
+}
+#section {
+    
+    padding:20px;
+    color:white;
+    margin-left:250px;
+    background: linear-gradient(45deg,rgba(118, 139, 0, 0.13),rgb(255, 0, 255));
+
+}
+#section article {
+ padding:12px;
+
+}
+#section article h3 {
+    font-size: 30px;
+}
+#section article p {
+    font-size: 18px;
+}
+
+#footer {
+    margin-bottom:0px;
+    text-align: center;
+    width:100%;
+   
+    margin-left:180px;
+    color:White;
+    padding:12px;
+    background: linear-gradient(45deg,rgb(0, 139, 23),rgb(255, 0, 255));
+}
